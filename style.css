@@ -1,0 +1,260 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav{
+    background-color: #90C3D4;
+    top: 0;
+    text-align: right;
+    margin-bottom: 10px;
+    width: 99%;
+    height:50px;
+    padding: 7px;
+   display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 4;
+}
+.dropdown-content {
+    display: none;
+    text-align: left;
+    color:  #bdf7f0;
+    position: absolute;
+    background-color:  #bdf7f0;
+    min-width: 5%;
+    box-shadow: 0px 8px 16px 0px  #bdf7f0;
+    z-index: 3;
+    
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  .a2{
+    width: 80%;
+    text-align: right;
+}
+.cibi{
+    width: 64px;
+    position:absolute;
+    top: 0%;
+}
+
+
+
+.section {
+    background-color: #bdf7f0;
+    padding: 7px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 150px;
+}
+
+.blue-square-large {
+    background-color: #90C3D4;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.blue-square-small {
+    background-color: #A9DDE3;
+    width: 300px;
+    height: 300px;
+    margin-left: 460px;
+    position: relative;
+    margin-top: 320px;
+}
+
+.blue-square-large h1 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+    margin-left: 1100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+
+#dark-Button{
+    border: none;
+    background-color: #bdf7f0;
+}
+
+#light-Button{
+    border: none;
+    background-color: #bdf7f0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+/* about us section*/
+.abtMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 80px;
+    background-color: #A9DDE3;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.abtMe p{
+    font-size: 20px;
+
+
+}
+
+/**/
+
+/* css for jeric.html*/
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+
+    margin-top: 80px;
+}
+
+.img2 {
+    margin-top: -60px;
+    width: 600px;
+
+}
+.section2 p{
+    font-size: 20px;
+
+
+}
+
+.section6{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    justify-content: flex-start;
+
+}
+#k{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+}
+
+.img3{
+    display: flex;
+    margin: 0 20px;
+    width: 100px;
+    margin-top: -100px;
+
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 250px;
+}
+.Eni1{
+    width: 500px;
+    top: 100px;
+}
+.insta{
+    display: flex;
+    width: 40px;
+  }
+  .linkIN{
+    display: flex;
+    width: 70px;
+  }
+/**/
+
+/* animation for ai component */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+  }
+
